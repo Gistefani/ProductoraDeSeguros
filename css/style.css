@@ -1,0 +1,821 @@
+*,
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    
+  }
+#Home{
+    display: flex;
+    position: relative;
+    
+}  
+#Ihome{
+    display: flex;
+    width: 1439px;
+    height: 662px;
+    top: 105px;
+    left: -4px;
+
+}
+
+#buttonHome{
+    position:absolute;
+    display: flex;
+    width: 200px;
+    height: 36px;
+    justify-content: center;
+    align-items: end;    
+    gap: 8px;
+    border-radius: 64px;
+    background-color: #C08E4B;
+    font-family: "Quicksand";
+    font-size: 14px;
+    font-weight:500;
+    margin-left: 30%;
+    transform: translateY(-190%);
+ 
+    border: none; /* Elimina el borde */
+    z-index: 10;
+    bottom: 20px; /* Ajusta según la distancia que desees desde la parte inferior */
+      
+}
+
+@media (max-width: 768px) {
+    #buttonHome {
+        font-size: 0.9rem;
+        padding: 6px 14px;
+        width: 100px;
+        top: 85%;
+        transform: translateY(-50%);
+        position: absolute;
+        margin-left: 40%;}
+    
+
+}
+@media (max-width: 426px) {
+    #buttonHome {
+        font-size: 0.9rem;
+        padding: 6px 14px;
+        width: 100px;
+        top: 85%;
+        transform: translateY(-50%);
+        position: absolute;
+        margin-left: 20%;
+    }
+   
+
+    
+    
+    }
+
+    
+
+
+#sobre{
+
+   display: flex;
+   max-width:2560px;
+   align-items:center;
+   border-radius: 300px 0px 0px 300px;
+   background: linear-gradient(180deg, #6783A8 0%, #283342 100%);
+   height: 466px;
+   max-width: 90%;
+   margin:0 auto;
+   overflow: hidden;
+   justify-content: flex-start;
+   margin-bottom: 1rem;
+   padding:  20px;
+   margin: 30px;
+}   
+#sobretodo{
+    margin-right: 10px;
+} 
+
+#mi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    
+}  
+#mi img {
+    border-radius: 50%; /* Hace que la imagen del usuario sea redonda */
+    width: 100%; /* Ajusta el tamaño de la imagen */
+    max-width: 390%;
+    height: auto;
+    object-fit: cover; /* Recorta la imagen adecuadamente */
+    justify-content:end;
+
+    
+}
+
+@media (min-width: 1900px) {
+    #sobre {
+        height: auto;
+        padding: 30px;
+        max-width: 80%;
+    }
+
+    #mi img {
+        max-width: 3000px;
+    }
+
+    #sobremitext {
+        font-size: 5rem;
+        
+    }
+
+    #textsobremi {
+        font-size: 1rem;
+        
+    }
+}
+
+
+
+
+
+@media (max-width: 769px) {
+    #mi img {      
+      max-width:300px;
+    }
+    h2 {
+        font-size: 1rem; /* Reducir el tamaño del texto en tablets */
+    }
+    #sobremitext {
+        font-size:20px; /* Reduce el tamaño del texto en pantallas medianas */
+      }
+  
+      #sobre {
+        height: auto; /* Deja que el contenedor se ajuste al contenido */
+        flex-direction: column; /* Cambiar la orientación de las columnas */
+        align-items: flex; /* Ajusta el alineamiento para texto primero */      
+      } 
+      
+      #textsobremi{
+        font-size:  1rem;
+      
+      }
+      #buttonservice {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+       
+
+
+
+}
+#Matricula{
+    padding-left: 32px;
+}
+
+
+    #sobremitext{
+        width: 409px;
+        height: 80px;
+        font-size: 64px;
+        flex-shrink: 0;
+        font-variant-numeric: lining-nums proportional-nums;
+        font-family: "Medula One", sans-serif;
+        letter-spacing: 2.56px;
+        justify-content: flex-end;
+    }
+    #textsobremi{
+        color: #FFF;
+        font-size: 16px;
+        font-variant-numeric: lining-nums proportional-nums;
+        font-family: "Quicksand", sans-serif;
+        font-weight: 400;
+        line-height: 1.4;/* 22.4px */
+        min-height: 200px;
+        flex-shrink: 0;
+        align-self: stretch;
+    }
+    h2 {
+        font-size: 2.5rem; /* Tamaño de fuente grande por defecto */
+        margin-bottom: 2rem;
+        color: #FFF;
+    }
+    
+    
+    @media (max-width: 426px) {
+        h2 {
+            font-size: 1.75rem; /* Reducir más el tamaño del texto en móviles */
+        }
+
+        #sobremitext {
+          font-size: 30px; /* Reduce más el tamaño en pantallas pequeñas */
+          align-items: center;
+          margin: 0;
+        
+        }
+        #mi img{
+            margin: auto;
+            max-width:300px;
+            display: block;
+            height: auto;
+
+        }
+        #sobre{
+           
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            border-radius: 5%;
+            height:auto;
+        }
+       
+        #textsobremi{
+            font-size: 10px;
+        } 
+    }
+
+                
+
+
+
+
+
+
+   
+#Elegime{
+    
+    display: flex;
+    max-width:2560px;
+    width: 100%; 
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;    
+    background-color: transparent;
+
+} 
+#Elegime h2{
+    font-size: 56px;
+    font-family:"Medula one";
+    align-items: center;
+    
+}
+
+#Elegime .container-fluid {
+    position: relative;
+} 
+
+
+#elegimecuadros{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    gap: 20px;
+    flex: 1 0 0;   
+    font-family:"Quicksand";
+    border-radius: 20px;
+    
+    flex-wrap: wrap; 
+    
+    
+}  
+
+#cuadro{
+    display: flex;
+    border-radius: 20px;
+    background: #FFF; /* Fondo blanco opaco */
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); /* sombra*/
+    height: 95px;
+    width: auto;
+    justify-content: start;
+   
+}
+.icon-text-container {
+
+    align-items: center; /* Centra verticalmente */
+}
+.icon {
+    width: 56px; /* Ajusta el tamaño del icono */
+    height: 55px; /* Ajusta el tamaño del icono */
+    margin-right: 8px; /* Espacio entre el ícono y el texto */
+    align-items: flex-start;
+    padding-left: 5px;
+}
+@media (max-width: 426px) {
+    #Elegime h2{
+        font-size: 39px;
+        font-family:"Medula one";
+        align-items: center;
+
+    }
+}
+
+
+
+
+#Servicios{
+    display: flex;
+    padding: 64px 55px;
+    top: 2056px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #222843;
+    color: white;
+   
+    background: linear-gradient(180deg, #222843 18%, #6783A8 100%);
+      
+}
+#serviciostitulo{
+   
+    font-family: "Medula One";
+    
+    height: 58px;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 72.8px */
+    letter-spacing: 2.24px;    
+    align-items: center;
+    padding: 64px;
+}
+.h6{
+    display: flex;
+    font-family: "Quicksand";
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 130%; /* 31.2px */
+   letter-spacing: -0.48px;
+   font-family: "Quicksand";
+   width: 343px;
+   height: 25px;
+}
+.icon2{display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+#titulocardS{
+    display: flex;
+    height: 32px;
+    flex-direction: column;
+    justify-content: center;
+    align-self: stretch; 
+    color: var(--Primary, #222843);
+   font-family: "Quicksand";
+   font-size: 36px;
+   font-style: normal;
+    font-weight: 600;
+   line-height: normal;   
+   
+}
+#textocardS{
+    display: flex;
+    height: 56px;
+    flex-direction: column;
+    justify-content: center;
+    align-self: stretch;
+    color: var(--Black, #23242A);        
+    font-weight: 500;
+    line-height: 130%; /* 20.8px */
+    letter-spacing: -0.32px;
+    font-style: normal;
+    
+}
+
+
+.accordion-item{
+    
+    padding: 32px 48px 24px 48px;
+    flex-direction: column; 
+    gap: 16px;
+    align-self: stretch;
+    border-radius: 12px;
+    background: #FFF;
+    margin-bottom: 32px ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+@media (max-width: 426px) {
+   .icon2{ 
+    width:25%; /* Tamaño del icono */
+    height: 15%;
+  
+       }
+    .col-md-2{
+        display: flex;
+    }   
+     .accordion-collapse {
+        overflow: visible !important; /* Permite que el contenido del acordeón se expanda */
+        position: relative;
+        z-index: 1;  /* Asegura que el acordeón esté sobre otros elementos */
+    }   
+    
+    .accordion-item{
+        position: relative;
+        
+        width: 400px;
+       
+        padding: 10px;
+        display: flex;
+    }
+    .accordion-item .row {
+        display: flex;
+        flex-direction: column;
+    }
+    #titulocardS{
+        font-size: 24px;
+        
+        display: flex;
+            }
+    #textocardS{
+        font-size: 10px;
+        display: flex;
+       
+    }
+    .accordion-body{
+        display: flex;
+        
+    }
+    #acordionservice{
+        display: flex;
+        width:250px;
+}
+#serviciostitulo{
+        font-size: 39px;
+    }
+    
+   
+    }
+  
+
+.accordion-body {
+    padding: 20px;
+    background-color: #f9f9f9; /* Un fondo sutil */
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+}
+.icon2{
+        width: 100x; /* Ajusta el tamaño del icono */
+        height: 100px; /* Ajusta el tamaño del icono */
+        align-items: center;
+
+    }   
+
+
+
+
+
+#accordionExample{
+    padding: 24px;
+    
+    gap: 32px;
+    color: #222843;    
+}
+#buttonservice{
+    display: flex;
+    width: 200px;
+    height: 36px;
+    padding: 12px 16 px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 64px;
+    background-color: #C08E4B;
+    font-family: "Quicksand";
+    font-size: 14px;
+    font-weight:500;
+    border: none;
+   
+}
+#acordionservice{
+    border-radius: 20px;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    box-shadow: 0px 4px 4px 0px;
+    gap: 20px;
+    height: auto;
+
+
+}
+#collapseTwo .col-6,
+#collapseThree .col-6 {
+   
+    align-items: center;
+    justify-content: center;
+}
+
+#collapseTwo img,
+#collapseThree img {
+    max-width: 50px; /* Tamaño adecuado para el icono */
+    margin-right: 10px;
+}
+#cuadriculaservice{
+    gap: 16px;
+
+}
+   
+#meacompanan{
+       
+    font-family: "Medula One";
+    color: white;
+    font-size: 56px;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    padding: 5px;
+    background: #222843;
+    height: 100px;   
+
+}
+#meacompanan h2{
+    font-family: "Medula One";
+    color: white;
+    font-size: 56px;
+    font-style: normal;
+
+}
+.cards-wrapper{
+    display: flex;
+    gap: 80px;
+    margin:auto ;
+    margin-top: 10px;
+}
+.card1{
+    border: none;
+    
+    
+   
+    
+}
+@media (max-width: 426px) {
+    #meacompanan{
+    font-size: 39px;
+    height: 60px;
+}
+}
+
+
+/*Testimonios*/
+
+#Testimonios h2{
+    font-family: "Medula One";
+    font-size: 49px;
+
+}
+.card-img-topt{
+    width: 20px;
+    height: 20px;  
+    left: 24px;
+    top: 11px;
+}
+#testcard{
+    width: 380px;
+    padding: 24px;
+    max-height: 420px;
+    box-shadow: 6px 6px 4px 0px rgba(156, 102, 194, 0.25);
+    min-width: calc(100% / 3 - 16px); /* Muestra 3 tarjetas en pantalla grande */
+
+
+}
+#testBody{
+    width:100%;
+    max-height: 420px;
+
+}
+#testexto{
+    
+    
+    height: 350px;
+    max-height: 252px;
+
+}
+#nombretestimonio{
+    font-size: 18px;
+}
+
+.card {
+    width: 100%; /* Ocupa todo el ancho disponible de su contenedor */
+    max-width: 18rem; /* Limita el tamaño en pantallas más grandes */
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease; /* Transición suave */
+}
+
+.card-body {
+    padding: 1rem;
+    box-sizing: border-box;
+    overflow: hidden; /* Evita que el texto se salga del contenedor */
+    
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    font-size: 30px;
+}
+
+.card-text {
+    font-size: 1rem; /* Tamaño de texto en pantallas grandes */
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    max-height: 4.8em; /* Limita el texto visible */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Añade puntos suspensivos si el texto es muy largo */
+    word-wrap: break-word; /* Permite que las palabras largas se ajusten a la línea */
+    font-size: 13px;
+}
+.caption-topn{
+    width: 120px;
+    height: 15px;
+}
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    transition: all 0.3s ease;
+}
+@media (max-width: 769px) {
+    #testcard {
+        min-width: calc(100% / 2 - 16px); /* Muestra 2 tarjetas */
+    }
+}
+
+/* Ajustes para pantallas móviles */
+@media (max-width: 426px) {
+    #testcard {
+        max-width: 800%; /* Permite que la tarjeta ocupe el 100% del contenedor */
+        min-width: 100%; /* Muestra 2 tarjetas */
+        padding: 24px;
+    }
+    .card-title {
+        font-size: 1.1rem; /* Reduce ligeramente el tamaño del título */
+    }
+    .card-text {
+        font-size: 0.9rem; /* Reduce el tamaño del texto para adaptarse a pantallas pequeñas */
+        line-height: 1.4;
+        
+    }
+}
+
+
+
+
+   
+
+
+
+/*Contacto*/
+
+#Contacto{
+    background: linear-gradient(180deg, #6783A8 0%, #222843 60.72%);
+   
+   color: var(--White, #FFF);
+   font-family: "Quicksand";  
+  
+}
+#datos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espacio entre cada par de icono y texto */
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Espacio entre la imagen y el texto */
+}
+
+.contact-item img {
+    width: 24px; /* Ajusta el tamaño de los iconos */
+    height: auto;
+}
+
+
+#butoncontacto{
+    display: flex;
+    width: 200px;
+    height: 36px;
+    padding: 12px 16 px;
+    justify-content:center;
+    margin-left: auto;
+    gap: 8px;
+    border-radius: 64px;
+    background-color: #C08E4B;
+    box-shadow: 0px 0 px 20px 0px;
+    font-family: "Quicksand";
+    font-size: 14px;
+    font-weight:500;
+    margin-bottom: 20px;
+   
+    
+}
+
+#contactotitulo{
+    
+    background-color: transparent;
+    font-family: "Medula One";
+    color: white;
+    font-size: 56px;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    padding: 50px 0;
+    z-index: 1;
+}
+#boxcontacto{
+    
+    padding: 10px;
+    font-family: "Quicksand";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+    
+   
+    
+    
+}
+#boxcontacto h1 {
+    font-size: 32px; /* Reduce el tamaño de la letra */
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    width: 610px;
+    align-items: center;
+    padding: 20px;
+    margin-left: 150px;
+}
+
+ #boxcontacto h4 {
+        font-size: 18px; /* Ajusta el tamaño del texto de los detalles de contacto */
+        font-family: Quicksand, sans-serif;
+        margin-bottom: 10px;
+    }  
+        
+ #datos{
+    margin-left: 150px;
+ }       
+        
+        
+ #datos img {
+        width: 34px; /* Ajusta el tamaño de los íconos */
+        height: auto;
+        margin-right: 20px; /* Espacio entre el ícono y el texto */
+        }        
+
+.form-label {
+            font-size: 14px; /* Tamaño de la etiqueta de los inputs */
+        }
+        
+.form-control {
+            font-size: 14px; /* Tamaño del texto en los campos del formulario */
+            background-color:transparent !important;
+            color: #fff !important
+
+            
+
+        }  
+        
+      
+/*Whatsapp*/ 
+
+#whatsapp-button {
+            position: fixed;
+            bottom: 20px; /* Ajusta la distancia desde la parte inferior */
+            right: 20px;  /* Ajusta la distancia desde la derecha */
+            z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+            
+          }
+          
+ #whatsapp-button img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%; /* Si quieres que el botón tenga bordes redondeados */
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Añadir una sombra para que se vea mejor */
+          }
+          
+/*Footer*/ 
+#logofooter{
+    width: 260px;
+    height: 129px;
+    flex-shrink: 0;
+
+}  
+#superintendencia{
+    padding: 5px;
+    margin-top: 90px;
+    justify-content: center;
+}     
