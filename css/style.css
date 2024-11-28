@@ -201,15 +201,12 @@ html, body {
     
     
     @media (max-width: 426px) {
-        h2 {
-            font-size: 1.75rem; /* Reducir más el tamaño del texto en móviles */
-        }
 
         #sobremitext {
-          font-size: 30px; /* Reduce más el tamaño en pantallas pequeñas */
-          align-items: center;
-          margin: 0;
-        
+          font-size: 30px; 
+          padding-right: 50px; 
+          font-size: 1.75rem;  
+          
         }
         #mi img{
             margin: auto;
@@ -446,6 +443,9 @@ html, body {
     
    
     }
+    @media (max-width: 375px) {
+
+    }    
   
 
 .accordion-body {
@@ -517,6 +517,8 @@ html, body {
     gap: 16px;
 
 }
+
+/*Me Acmpañan*/
    
 #meacompanan{
        
@@ -541,12 +543,21 @@ html, body {
     font-style: normal;
 
 }
-.cards-wrapper{
+  
+
+#cardAcompranan{
+    
     display: flex;
-    gap: 80px;
-    margin:auto ;
-    margin-top: 10px;
+    justify-content: center;
+    gap: 16px;
+    transition: all 0.3s ease;
 }
+#logos{
+    width: 15rem;
+    margin: auto;
+}
+    
+
 .card1{
     border: none;
     
@@ -568,6 +579,10 @@ html, body {
     font-family: "Medula One";
     font-size: 49px;
 
+}
+#Testimonios h6{
+    font-family: "Quicksand";
+    font-size: 24px;
 }
 .card-img-topt{
     width: 20px;
@@ -637,19 +652,21 @@ html, body {
     width: 120px;
     height: 15px;
 }
-.cards-wrapper {
+#CardTestimonio{
+    margin: 20px;
     display: flex;
     justify-content: center;
     gap: 16px;
     transition: all 0.3s ease;
 }
+
 @media (max-width: 769px) {
     #testcard {
         min-width: calc(100% / 2 - 16px); /* Muestra 2 tarjetas */
     }
 }
 
-/* Ajustes para pantallas móviles */
+
 @media (max-width: 426px) {
     #testcard {
         max-width: 800%; /* Permite que la tarjeta ocupe el 100% del contenedor */
@@ -743,12 +760,11 @@ html, body {
     line-height: normal;
     
     
-   
-    
+       
     
 }
 #boxcontacto h1 {
-    font-size: 32px; /* Reduce el tamaño de la letra */
+    font-size: 28px; 
     font-family: "Quicksand", sans-serif;
     font-weight: 600;
     line-height: 1.4;
@@ -756,7 +772,7 @@ html, body {
     width: 610px;
     align-items: center;
     padding: 20px;
-    margin-left: 150px;
+    margin-left: 90px;
 }
 
  #boxcontacto h4 {
@@ -766,7 +782,7 @@ html, body {
     }  
         
  #datos{
-    margin-left: 150px;
+    margin-left: 100px;
  }       
         
         
@@ -788,6 +804,42 @@ html, body {
             
 
         }  
+@media (max-width: 1024px) {
+            #datos{
+                margin-left: 15px;
+             } 
+             #boxcontacto h1 {
+                margin-left: 5px;
+                font-size: 20px;
+                width: 300px;
+             }
+        
+        
+                }         
+@media (max-width: 768px) {
+    #datos{
+        margin-left: 15px;
+     } 
+     #boxcontacto h1 {
+        margin-left: 5px;
+        font-size: 20px;
+        width: 300px;
+     }
+
+
+        }        
+ @media (max-width: 426px) {
+
+    #datos{
+        margin-left: 15px;
+     } 
+     #boxcontacto h1 {
+        margin-left: 5px;
+        font-size: 20px;
+        width: 300px;
+     }
+        }
+
         
       
 /*Whatsapp*/ 
